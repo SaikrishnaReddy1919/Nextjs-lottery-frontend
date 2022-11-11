@@ -106,7 +106,10 @@ export default function LotteryEntrance() {
           <div>The most previous winner was: {recentWinner}</div>
         </div>
       ) : (
-        <div></div>
+        <div>
+          Please connect to a supported chain(No Raffle contract address
+          detected)
+        </div>
       )}
     </div>
   )
